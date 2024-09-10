@@ -1,0 +1,10 @@
+import re
+re.findall("ab*c","ac")
+re.findall("ab*c", "abcd")
+re.findall("ab*c", "acc")
+re.findall("ab*c", "abcac")
+re.findall("ab*c", "abdc")
+re.findall("a.*c", "abc")
+re.findall("a.*c", "abbc")
+re.findall("a.*c", "ac")
+re.findall("a.*c", "acc")
